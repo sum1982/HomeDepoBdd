@@ -107,6 +107,404 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("file:Features/Localad.feature");
+formatter.feature({
+  "name": "HomeDepo Rental Feature",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "HomeDepo Rental Test Scenario",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC1"
+    }
+  ]
+});
+formatter.step({
+  "name": "User is already on HomeDepo Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "title of the home page is HomeDepo",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on local ad",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on tool rental",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on tillers",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on check availability",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on check nearby stores",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks search box and enters \"\u003czipcode\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "zipcode"
+      ]
+    },
+    {
+      "cells": [
+        "60133"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "HomeDepo Rental Test Scenario",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC1"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is already on HomeDepo Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDef.user_is_already_on_HomeDepo_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "title of the home page is HomeDepo",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDef.title_of_the_home_page_is_HomeDepo()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on local ad",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_local_ad()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on tool rental",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_tool_rental()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on tillers",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_tillers()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on check availability",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_check_availability()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on check nearby stores",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_check_nearby_stores()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks search box and enters \"60133\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_search_box_and_enters_zip_code(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "HomeDepo Husky Test Scenario",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TC2"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on ad page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDef.user_is_on_ad_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on husky link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_husky_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on tool bags",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_tool_bags()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user sees husky tool bags",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_sees_husky_tool_bags()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "HomeDepo Career Test Scenario",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC3"
+    }
+  ]
+});
+formatter.step({
+  "name": "user is on HomeDepo site",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user clicks on localad",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "user clicks on careers",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user clicks on Search and apply",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user enters \"\u003ckeywords\u003e\" and clicks on location",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user sees jobs near location entered",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "keywords"
+      ]
+    },
+    {
+      "cells": [
+        "cashier"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "HomeDepo Career Test Scenario",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TC3"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on HomeDepo site",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDef.user_is_on_HomeDepo_site()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on localad",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_localad()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on careers",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_careers()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Search and apply",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_Search_and_apply()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters \"cashier\" and clicks on location",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_enters_keywords_and_clicks_on_location(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user sees jobs near location entered",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_sees_jobs_near_location_entered()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "HomeDepo Blinds Test Scenario",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TC4"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is already on local ad",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDef.user_is_already_on_local_ad()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on blinds link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDef.user_clicks_on_blinds_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user click on wood blinds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_click_on_wood_blinds()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects width and height and clicks on update",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_selects_width_and_height_and_clicks_on_update()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user sees results",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDef.user_sees_results()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("file:Features/Logintohomedepot.feature");
 formatter.feature({
   "name": "Login to HomeDepot",
@@ -223,7 +621,7 @@ formatter.match({
   "location": "StepDef.verification_page_opens_with_heading(String)"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"single-signin__body\"]/div/div[1]/div/div/p\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027ROHINI-LNV\u0027, ip: \u0027192.168.0.18\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\rohin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 84633f929029df6e9bda79c5f59d67ca\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"single-signin__body\"]/div/div[1]/div/div/p}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat stepDefinition.StepDef.verification_page_opens_with_heading(StepDef.java:108)\r\n\tat ✽.Verification page opens with heading \"Verification Code Entry\"(file:Features/Logintohomedepot.feature:9)\r\n",
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"single-signin__body\"]/div/div[1]/div/div/p\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027LAPTOP-CJ63G7LO\u0027, ip: \u002710.0.0.80\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\kohli\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: da0e50e02a32fdf913a2486a82f49a30\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"single-signin__body\"]/div/div[1]/div/div/p}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat stepDefinition.StepDef.verification_page_opens_with_heading(StepDef.java:109)\r\n\tat ✽.Verification page opens with heading \"Verification Code Entry\"(file:Features/Logintohomedepot.feature:9)\r\n",
   "status": "failed"
 });
 formatter.uri("file:Features/Searchanitem.feature");
