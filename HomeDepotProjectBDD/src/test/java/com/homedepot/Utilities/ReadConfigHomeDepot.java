@@ -44,4 +44,10 @@ public class ReadConfigHomeDepot {
 		String mybrowser=prop.getProperty("browser");
 		return mybrowser;
 	}
+	
+	  public String getEdgePath()
+	    {
+	        String edgepath = prop.getProperty("edgepath");
+	        return edgepath;
+	    }
 }
